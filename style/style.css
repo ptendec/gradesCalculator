@@ -1,0 +1,414 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family: Monsterrat;
+}
+@font-face {
+    font-family: Monsterrat; 
+    src: url(../fonts/11952.ttf); 
+}
+
+.header{
+	padding-top: 30px;
+	background-color: #343E5A;
+	height: 170px;
+}
+.text{
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: Monsterrat;
+	letter-spacing: 1px;
+	line-height: 32px;
+}
+
+ul, li, a{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.main_page_link{
+	margin-left: 0px;
+}
+
+.about_author_link,
+.main_page_link,
+.calculate_link, 
+.rating_link,
+.statistic_link{
+	padding: 7px 13px 7px 13px;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 22px;
+}
+
+.about_author_link:hover,
+.main_page_link:hover,
+.calculate_link:hover, 
+.rating_link:hover,
+.statistic_link:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(84,105,158,0.3);
+}
+
+.popup_reg_button,
+.popup_auth_button{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 22px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	z-index: 4;
+}
+
+.popup_auth_button{
+	margin-top: 20px;
+}
+
+.popup_reg_button:hover,
+.popup_auth_button:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+/* -------------------------------------------------------------- */
+.content{
+	height: 600px;
+	background-image: url(../img/04.jpg);
+}
+.wrapper{
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.feedback{
+	padding-top: 40px;
+	height: 650px;
+	background-color: #343E5A;
+}
+
+.content_description{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 220px;
+	font-size: 50px;
+	color: #fff;
+}
+/* -------------------------------------------------------------- */
+.form{
+	background-color: #343E5A;
+}
+.form_p{
+	width: 180px;
+	font-family: "Monsterrat";
+	margin-top: 20px;
+}
+.textarea{
+	margin-top: 20px;
+}
+h2{
+	font-size: 50px;
+	font-family: "Monsterrat";
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.input_from{
+	width: 65%;
+	height: 55px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;	
+	display: block;
+	color: #343e5a;
+}
+.textarea{
+	display: block;
+	padding-top: 10px;
+	width: 65%;
+	height: 105px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: #343e5a;
+}
+.submit{
+	width: 65%;
+	height: 55px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 35px;	
+	display: block;
+	cursor: pointer;
+	background-color:#FFE500;
+	color: #343E5A;
+}
+.submit:hover{
+	transition: letter-spacing 0s ease-out 0s;
+	transition: font-size 0s ease-out 0s;
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+
+.calculate_cpp{
+	height: 2100px;
+}
+
+.first_part_of_trimester{
+	padding-top: 30px;
+	font-size: 40px;
+}
+.week_2,
+.week_3,
+.week_4,
+.cpp_mid_term{
+	margin-top: 15px;
+}
+
+.week_5,
+.week_6,
+.week_8,
+.week_9,
+.week_10,
+.cpp_end_term{
+	margin-top: 15px;
+}
+
+.submit_cpp_button,
+.submit_ict_button{
+	width: 40%;
+	height: 45px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 19px;
+	text-align: center;
+	margin-top: 35px;	
+	display: block;
+	cursor: pointer;
+	background-color:#343E5A;
+	color: #fff;
+}
+
+.submit_cpp_button:hover,
+.submit_ict_button:hover{
+	color: #343E5A;
+	background-color: #fff;
+	border: 1.5px solid #343E5A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+.calculate_grade_link{
+	padding: 7px 15px 7px 15px;
+	margin-top: 30px;
+	color: #343E5A;
+	font-size: 22px;
+	border-style: solid;
+	border-radius: 4px;
+	width: 100%;
+	border-color: #424238;
+	text-decoration: underline;
+}
+
+.calculate_grade_link:hover{
+	color: #fff;
+	background-color: rgba(84,105,158,1);
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+.first_att_cpp_p,
+.second_att_cpp_p,
+.total_cpp_p{
+	margin-top: 100px;
+}
+
+.first_att_ict_p,
+.second_att_ict_p,
+.total_ict_p{
+	margin-top: 100px;
+}
+
+.wrapper_of_form_reg{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.form_of_registration{
+	padding-top: 00px;
+	width: 300px;
+	height: 560px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #fff;
+	box-shadow: 6px 11px 28px 5px rgba(0,0,0,0.39);
+}
+
+.wrapper_of_form_auth{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.title_reg{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: 5px;
+	display: inline-block;	
+	width: 100%;
+}
+
+.reg_button{
+	width: 215px;
+	height: 45px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	background-color:#343E5A;
+	color: #fff;
+	margin: 35px auto;
+}
+
+.reg_button:hover{
+	color: #343E5A;
+	background-color: #fff;
+	border: 1.5px solid #343E5A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+.reg_p{
+	margin-top: 10px;
+	text-align: center;
+}
+.first_name,
+.last_name,
+.email,
+.password{
+	height: 35px;
+	width: 215px;
+	font-size: 14px;
+	display: block;
+	margin: 0 auto;
+}
+
+.educational_program{
+	width: 215px;
+	margin-left: 40px;
+	margin-top: 20px;
+	height: 30px;
+}
+
+
+.form_of_authorization{
+	padding-top: 0px;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 6px 11px 28px 5px rgba(0,0,0,0.39);
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+.auth_button{
+	width: 215px;
+	height: 45px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-family: "Monsterrat";
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	background-color:#343E5A;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.auth_button:hover{
+	color: #343E5A;
+	background-color: #fff;
+	border: 1.5px solid #343E5A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+.close_button{
+	background-color: #fff;
+	outline: none;
+	border:none;
+	font-weight: 900;
+	float: right;
+}
+
+.close_button:hover{
+	text-decoration: underline;
+}
+
+.user_info{
+	margin-top: 30px;	
+	color: #fff;
+	font-size: 18px;	
+	display: inline-block;
+}
+.subject_title{
+	margin-top: 50px;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.charts{
+	padding-top: 50px;
+	height: 1000px;
+}
+
+.delete_statistic_link{
+	color: #000;
+	font-size: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px)  {
+
+}
